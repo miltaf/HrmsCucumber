@@ -28,7 +28,7 @@ public class AddEmergencySteps extends CommonMethods {
 		click(addEmerg.addContact);
 	}
 
-	@When("user add Emergency contact's {string}, {string} to employee and {string}, {string} and {string} numbers")
+	@When("user add Emergency contacts {string}, {string} to employee and {string}, {string} and {string} numbers")
 	public void user_add_Emergency_contact_s_to_employee_and_and_numbers(String name, String relationship, String homeTelephone, String mobileNo, String workNo) {
 
 		sendText(addEmerg.contactName, "Ahmad Popal");
