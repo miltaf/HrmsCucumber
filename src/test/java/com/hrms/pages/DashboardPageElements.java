@@ -36,6 +36,5 @@ public class DashboardPageElements extends CommonMethods{
 	public void navigateToAddEmployee() {
 		jsClick(PIM);
 		jsClick(addEmp);
-		jsClick(empListPage);
 	}
 }

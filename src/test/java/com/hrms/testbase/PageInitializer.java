@@ -28,6 +28,6 @@ public class PageInitializer extends BaseClass{
 		pdetails=new PersonalDetailsPageElements();
 		viewEmp=new ViewEmployeePageElements();
 		sauceLogin=new SauceDemoLoginPage();
-		addEmerg=new AddEmergencyContact();
+		addEmerg = new AddEmergencyContact();
 	}
 }
